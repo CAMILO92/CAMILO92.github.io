@@ -1,0 +1,14 @@
+﻿{
+  "name": "Mapa de Santander",
+  "version": "1.0.0",
+  "description": "Información base 100K y 500K del IGAC",
+  "attribution": "OSM", 
+  "type": "baselayer",
+  "color": "#FFFFFF",
+  "format": "png",
+  "minzoom": "6",
+  "maxzoom": "10",
+  "bounds": "-73.99609,7.66860,-73.54210,5.65371",
+  "scale": "1",
+  "profile": "mercator"
+}
