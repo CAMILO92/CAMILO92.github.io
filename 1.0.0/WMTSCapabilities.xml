@@ -23,25 +23,34 @@
       <ows:Title>Mapa base de Santander</ows:Title>
       <ows:Abstract>Mapa base de Santander a partir de cartografia base 100k y 500k del IGAC</ows:Abstract>
       <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
-        <ows:LowerCorner>-8237207.05949 630391.963168</ows:LowerCorner>
-        <ows:UpperCorner>-8186669.12387 856224.845984</ows:UpperCorner>
+        <ows:LowerCorner>-8348516.53153 623377.372104</ows:LowerCorner>
+        <ows:UpperCorner>-8073891.34775 929112.87125</ows:UpperCorner>
       </ows:BoundingBox>
       <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
-        <ows:LowerCorner>-73.99609 5.65371</ows:LowerCorner>
-        <ows:UpperCorner>-73.5421 7.6686</ows:UpperCorner>
+        <ows:LowerCorner>-74.996 5.591</ows:LowerCorner>
+        <ows:UpperCorner>-72.529 8.317</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <Style isDefault="true">
         <ows:Identifier>default</ows:Identifier>
       </Style>
       <Format>image/png</Format>
       <TileMatrixSetLink>
-        <TileMatrixSet>z7to14</TileMatrixSet>
+        <TileMatrixSet>z6to14</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/png" resourceType="tile" template="http://localhost/tileserver/santander/{TileMatrix}/{TileCol}/{TileRow}.png"/>
     </Layer>
     <TileMatrixSet>
-      <ows:Identifier>z7to14</ows:Identifier>
+      <ows:Identifier>z6to14</ows:Identifier>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>8735660.375448714942</ScaleDenominator>
+        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>64</MatrixWidth>
+        <MatrixHeight>64</MatrixHeight>
+      </TileMatrix>
       <TileMatrix>
         <ows:Identifier>7</ows:Identifier>
         <ScaleDenominator>4367830.187724357471</ScaleDenominator>
